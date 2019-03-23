@@ -1,0 +1,37 @@
+.deleteChip {
+  width: 25%;
+  height: 12%;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  margin: 8px;
+  text-align: center;
+  font-size: 1.1rem;
+  border: 4px solid white;
+}
+
+.deleteChip:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+span {
+  padding-right: 10px;
+  font-size: 1rem;
+}
+
+.monthData {
+  padding-top: 6px;
+}
+
+.green {
+  color: #2be24c;
+}
+
+.blue {
+  color: #2a58e2;
+}
+
+.red {
+  color: #e22954;
+}

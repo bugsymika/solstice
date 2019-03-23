@@ -1,0 +1,18 @@
+.app {
+  height: 100vh;
+  width: 100vw;
+  background-color: whitesmoke;
+  font-family: 'roboto';
+  font-weight: 400;
+  overflow: hidden;
+}
+
+.icono-leftArrow:hover {
+  cursor: pointer;
+}
+
+.icono-leftArrow {
+  zoom: 2.5;
+  margin-left: 20px;
+  margin-top: 20px;
+}

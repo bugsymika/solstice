@@ -1,0 +1,48 @@
+header {
+  height: 5vh;
+  background-color: black;
+  color: white;
+  font-weight: 800;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 2px solid white;
+  border-top: 2px solid black;
+}
+.clickable {
+  padding: 10px;
+  border-right: 2px solid;
+  margin-left: 6px;
+}
+
+.clickable:nth-child(1) {
+  border-left: 2px solid;
+  padding: 10px;
+}
+
+.clickable:hover {
+  background-color: rgb(89, 89, 163);
+  cursor: pointer;
+}
+
+p {
+  margin: 0px;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.headerBars {
+  width: fit-content;
+  display: flex;
+}
+
+.checkboxes {
+  padding: 10px;
+}
+
+.sort {
+  padding: 10px;
+}

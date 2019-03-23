@@ -1,0 +1,66 @@
+.container {
+  height: 90vh;
+  width: 100vw;
+  background-color: rgba(119, 117, 117, 0.575);
+  overflow: hidden;
+}
+
+.changeHeader {
+  height: 10vh;
+  width: 100vw;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  border-bottom: 2px solid white;
+}
+
+h2 {
+  text-align: center;
+}
+.head {
+  width: 25vw;
+  color: white;
+  height: 3vh;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 10px;
+  font-size: 1.5rem;
+  background-color: rgb(51, 45, 45);
+  border-bottom: 2px solid white;
+}
+
+.yearSelect,
+.monthSelect {
+  width: 25vw;
+  background-color: rgb(51, 45, 45);
+  color: white;
+  height: 3vh;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+.monthSelect {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: rgb(51, 45, 45);
+}
+
+h1 {
+  padding: 10px;
+}
+
+.changeContainer {
+  border: 2px solid white;
+  width: fit-content;
+  margin: auto;
+  margin-top: 10%;
+  border-radius: 12px;
+  padding: 40px;
+  background-color: rgb(51, 45, 45);
+}

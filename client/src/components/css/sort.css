@@ -1,0 +1,7 @@
+.sortBar {
+  margin-left: 8px;
+}
+
+.sortBar:hover {
+  cursor: pointer;
+}

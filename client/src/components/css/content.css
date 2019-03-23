@@ -1,0 +1,41 @@
+.content {
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  background-color: rgb(51, 45, 45);
+  flex-direction: column;
+}
+
+.chart {
+  border-top: 2px solid white;
+  padding-top: 12px;
+  margin-left: auto;
+}
+
+.recharts-legend-item-text {
+  text-transform: capitalize;
+  color: white;
+  font-size: 1.4rem;
+}
+footer {
+  height: 20%;
+  background-color: black;
+  width: 100vw;
+}
+
+.recharts-default-legend {
+  border-top: 2px solid white;
+}
+
+.recharts-text .recharts-cartesian-axis-tick-value {
+  color: white;
+}
+
+.recharts-legend-icon {
+  border: 0px;
+}
+
+h1 {
+  color: white;
+  text-shadow: 2px 2px black;
+}
