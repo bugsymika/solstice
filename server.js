@@ -3,6 +3,7 @@ const cors = require('cors');
 const bodyParser = require('body-parser');
 const app = express();
 const path = require('path');
+const port = process.env.PORT || 5000;
 
 //Middleware
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -14,8 +15,6 @@ app.use(express.static(path.join(__dirname, 'client', 'build')));
 
 const data = require('./routes/api/data');
 app.use('/data', data);
-
-const port = process.env.PORT || 5000;
 
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'client', 'build', 'index.html'));
