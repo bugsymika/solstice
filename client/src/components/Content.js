@@ -13,10 +13,6 @@ import {
 } from 'recharts';
 
 export default class Content extends Component {
-  deleteBill = id => {
-    return axios.delete(`${'http://localhost:5000/data'}${id}`);
-  };
-
   render() {
     return (
       <div className='content'>

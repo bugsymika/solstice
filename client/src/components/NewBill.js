@@ -40,7 +40,7 @@ export default class NewBill extends Component {
   };
 
   getData = async () => {
-    axios.get('http://localhost:5000/data').then(response => {
+    axios.get('/data').then(response => {
       this.setState({ rawData: response.data });
     });
   };

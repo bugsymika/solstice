@@ -16,7 +16,7 @@ export default class ChangeContent extends Component {
   };
 
   componentDidMount() {
-    axios.get('http://localhost:5000/data').then(response => {
+    axios.get('/data').then(response => {
       let rawData = response.data;
       rawData.forEach(element => {
         element.timeStamp =

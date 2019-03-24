@@ -52,7 +52,7 @@ class App extends Component {
   };
 
   getData = async () => {
-    axios.get('http://localhost:5000/data').then(response => {
+    axios.get('/data').then(response => {
       let rawData = response.data;
       rawData.forEach(element => {
         element.timeStamp =

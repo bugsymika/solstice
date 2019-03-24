@@ -3,7 +3,7 @@ import './css/deletechip.css';
 import axios from 'axios';
 export default class DeleteBillChip extends Component {
   deleteData = async (id, object) => {
-    const url = 'http://localhost:5000/data/' + id;
+    const url = '/data/' + id;
     await axios.delete(url);
     await this.props.pushToFilter(object);
     this.props.toggleDel();
